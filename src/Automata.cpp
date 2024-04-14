@@ -1,5 +1,7 @@
 // Copyright 2022 UNN-IASR
 #include "Automata.h"
+#include <string>
+#include <cstdio>
 
 std::string product_to_str(Product product) {
     switch (product) {
