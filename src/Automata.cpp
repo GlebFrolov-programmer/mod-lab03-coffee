@@ -2,6 +2,7 @@
 #include "Automata.h"
 #include <string>
 #include <cstdio>
+#include <stdexcept>
 
 std::string product_to_str(Product product) {
     switch (product) {
